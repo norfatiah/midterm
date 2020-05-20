@@ -231,6 +231,114 @@ class _MainScreenState extends State<MainScreen> {
                                         )),
                                   ],
                                 ),
+                                Column(
+                                  children: <Widget>[
+                                    FlatButton(
+                                        onPressed: () => _sortDestination("PENANG"),
+                                        color:
+                                            Color.fromRGBO(101, 255, 218, 50),
+                                        padding: EdgeInsets.all(10.0),
+                                        child: Column(
+                                          // Replace with a Row for horizontal icon + text
+                                          children: <Widget>[                                          
+                                            Text(
+                                              "PENANG",
+                                              style: TextStyle(
+                                                  color: Colors.black),
+                                            )
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                Column(
+                                  children: <Widget>[
+                                    FlatButton(
+                                        onPressed: () => _sortDestination("KEDAH"),
+                                        color:
+                                            Color.fromRGBO(101, 255, 218, 50),
+                                        padding: EdgeInsets.all(10.0),
+                                        child: Column(
+                                          // Replace with a Row for horizontal icon + text
+                                          children: <Widget>[                                          
+                                            Text(
+                                              "KEDAH",
+                                              style: TextStyle(
+                                                  color: Colors.black),
+                                            )
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                Column(
+                                  children: <Widget>[
+                                    FlatButton(
+                                        onPressed: () => _sortDestination("PERLIS"),
+                                        color:
+                                            Color.fromRGBO(101, 255, 218, 50),
+                                        padding: EdgeInsets.all(10.0),
+                                        child: Column(
+                                          // Replace with a Row for horizontal icon + text
+                                          children: <Widget>[                                          
+                                            Text(
+                                              "PERLIS",
+                                              style: TextStyle(
+                                                  color: Colors.black),
+                                            )
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                Column(
+                                  children: <Widget>[
+                                    FlatButton(
+                                        onPressed: () => _sortDestination("SABAH"),
+                                        color:
+                                            Color.fromRGBO(101, 255, 218, 50),
+                                        padding: EdgeInsets.all(10.0),
+                                        child: Column(
+                                          // Replace with a Row for horizontal icon + text
+                                          children: <Widget>[                                          
+                                            Text(
+                                              "SABAH",
+                                              style: TextStyle(
+                                                  color: Colors.black),
+                                            )
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                Column(
+                                  children: <Widget>[
+                                    FlatButton(
+                                        onPressed: () => _sortDestination("SARAWAK"),
+                                        color:
+                                            Color.fromRGBO(101, 255, 218, 50),
+                                        padding: EdgeInsets.all(10.0),
+                                        child: Column(
+                                          // Replace with a Row for horizontal icon + text
+                                          children: <Widget>[                                          
+                                            Text(
+                                              "SARAWAK",
+                                              style: TextStyle(
+                                                  color: Colors.black),
+                                            )
+                                          ],
+                                        )),
+                                  ],
+                                ),
+                              
                               ],
                             ),
                           ))),
